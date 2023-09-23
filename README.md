@@ -1,4 +1,4 @@
-This notebook is a companion to the article [arxiv number]. It contains interactive plots that demonstrate the evolution of the quasinormal frequencies (QNFs), calculated using the semi-classical method presented by Gonzalez, Papantonopoulos, Saavedra. and Vasquez [https://link.springer.com/article/10.1007/JHEP06(2022)150], for the allowed values of $(M,Q)$ corresponding to the phase space (the  "sharkfin" diagram)  drawn for $L^2_{dS} = 3 / \Lambda = 1.$ This parametrisation is used throughout the notebook. 
+This notebook is a companion to the article [arxiv number]. It contains interactive plots that demonstrate the evolution of the quasinormal frequencies (QNFs), calculated using the semi-classical method presented by Gonzalez, Papantonopoulos, Saavedra, and Vasquez [https://link.springer.com/article/10.1007/JHEP06(2022)150], for the allowed values of $(M,Q)$ corresponding to the phase space (the  "sharkfin" diagram)  drawn for $L^2_{dS} = 3 / \Lambda = 1.$ This parametrisation is used throughout the notebook. 
 
 DO NOT CHANGE the ```$\Lambda=3$`` input $-$ it will render most of this notebook useless !
 
