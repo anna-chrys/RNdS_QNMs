@@ -1,4 +1,4 @@
-This notebook is a companion to the article [arxiv number]. It contains interactive plots that demonstrate the evolution of the quasinormal frequencies (QNFs), calculated using the semi-classical method presented by Gonzalez, Papantonopoulos, Saavedra, and Vasquez [https://link.springer.com/article/10.1007/JHEP06(2022)150], for the allowed values of $(M,Q)$ corresponding to the phase space (the  "sharkfin" diagram)  drawn for $L^2_{dS} = 3 / \Lambda = 1.$ This parametrisation is used throughout the notebook. 
+This notebook is a companion to the article "Reissner-Nordström black holes in de Sitter space-time: bounds with quasinormal frequencies" [https://arxiv.org/abs/2310.07311]. It contains interactive plots that demonstrate the evolution of the quasinormal frequencies (QNFs), calculated using the semi-classical method presented by Gonzalez, Papantonopoulos, Saavedra, and Vasquez [https://link.springer.com/article/10.1007/JHEP06(2022)150], for the allowed values of $(M,Q)$ corresponding to the phase space (the  "sharkfin" diagram)  drawn for $L^2_{dS} = 3 / \Lambda = 1.$ This parametrisation is used throughout the notebook. 
 
 Do not change the ```$\Lambda=3$`` input $-$ it will render most of this notebook useless !
 
@@ -14,7 +14,7 @@ Section 2 imports the necessary notebooks for subsequent calculations: the QNF c
 
 Section 3 plots the interactive sharkfin plot: it allows the user to observe the behaviour of the QNM potential on the physically-relevant domain between event and cosmological horizon (i.e. on $r_+ \leq r \leq r_c$), the "locations" of the horizons, and the corresponding QNF values for the "black hole" and "cosmological" QNFs. 
 
-Section 4 compares the QNFs calculated here with those calculated using Konoplya's WKB package. Please note that Konoplya's Mathematica package was made publicly available by the author himself [https://arxiv.org/abs/gr-qc/0303052] and we have included it here for convenience, with no modifications. 
+Section 4 compares the QNFs calculated here with those calculated using Konoplya's WKB.m package. Please note that Konoplya's Mathematica package was made publicly available by the author himself [https://arxiv.org/abs/gr-qc/0303052] and we have included it here for convenience, with no modifications. 
 
 Section 5 shows how the imaginary component of the QNF scales with the mass of the scalar field. We demonstrate how we determine the "critical mass" $\mu_{crit}$ visually and directly.
 
