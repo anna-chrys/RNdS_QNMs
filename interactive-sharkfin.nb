@@ -27,11 +27,14 @@ Cell[BoxData[
  CellLabel->"In[53]:=",ExpressionUUID->"0471a5fd-6ec8-470a-a01d-21cad44c79a6"],
 
 Cell[TextData[{
- StyleBox["This notebook is a companion to the article [",
+ StyleBox["This notebook is a companion to the article ",
   FontWeight->"Plain"],
- StyleBox["arxiv number]",
-  FontWeight->"Plain",
-  FontSlant->"Italic"],
+ StyleBox[ButtonBox["Reissner-Nordström black holes in de Sitter space-time: bounds with quasinormal frequencies",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["https://arxiv.org/abs/2310.07311"], None},
+  ButtonNote->"https://arxiv.org/abs/2310.07311"],
+  FontWeight->"Plain"],
  StyleBox[". It contains interactive plots that demonstrate the evolution of \
 the quasinormal frequencies (QNFs), calculated using the semi-classical \
 method presented by ",
@@ -134,13 +137,14 @@ domain between event and cosmological horizon (i.e. on ",
 values for the \"black hole\" and \"cosmological\" QNFs. \n\nSection 4 \
 compares the QNFs calculated here with those calculated using ",
   FontWeight->"Plain"],
- StyleBox[ButtonBox["Konoplya's WKB package",
+ StyleBox[ButtonBox["Konoplya's WKB.m package",
   BaseStyle->"Hyperlink",
   ButtonData->{
     URL["https://arxiv.org/abs/gr-qc/0303052"], None},
   ButtonNote->"https://arxiv.org/abs/gr-qc/0303052"],
   FontWeight->"Plain"],
- ". \n\n",
+ ", made public by Konoplya himself. We have included it here for convenience, \
+ with no modification. \n\n",
  StyleBox["Section 5 shows how the imaginary component of the QNF scales with \
 the mass of the scalar field. We demonstrate how we determine the \"critical \
 mass\" ",
